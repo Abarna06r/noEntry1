@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "706423712400",
+    "project_id": "noentry-1f3f6",
+    "storage_bucket": "noentry-1f3f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706423712400:android:72140056c29f184a888615",
+        "android_client_info": {
+          "package_name": "com.example.doorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ6uzLkYp8nyHtN23ZzHMhXBpeJBrffog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
