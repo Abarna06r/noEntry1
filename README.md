@@ -1,16 +1,56 @@
-# doorapp
+# No Entry – Smart Door Security App
 
-A new Flutter project.
+A smart door security application that provides real-time monitoring and alerts when unauthorized access or door tampering is detected.
 
-## Getting Started
+## 📌 Overview
 
-This project is a starting point for a Flutter application.
+No Entry is a Flutter-based smart door security application integrated with ESP32 hardware and Supabase. The system monitors connected door sensors and immediately alerts the registered user when suspicious or unauthorized door activity is detected.
 
-A few resources to get you started if this is your first Flutter project:
+The application provides secure authentication, real-time door monitoring, device management, and instant security notifications through a clean and interactive mobile interface.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🔐 Secure user authentication
+- 📡 Real-time door sensor monitoring
+- 🚪 Smart door tamper detection
+- 🔔 Instant security notifications
+- 📱 Full-screen call-like security alerts
+- 📳 Vibration and sound alerts
+- 📶 Wi-Fi device discovery
+- 🔗 Multiple smart-door device support
+- 👤 User profile management
+- ⚙️ Device management
+- 🌙 Dark mode support
+- ☁️ Supabase real-time database integration
+- 🔒 Secure backend authentication and data management
+
+## 🏗️ System Architecture
+
+```text
+              ┌─────────────────────┐
+              │   Smart Door Sensor │
+              │       ESP32         │
+              └──────────┬──────────┘
+                         │
+                         │ Wi-Fi
+                         ↓
+              ┌─────────────────────┐
+              │   Supabase Backend  │
+              │                     │
+              │ Authentication      │
+              │ Realtime Database   │
+              │ Device Management   │
+              │ Notifications       │
+              └──────────┬──────────┘
+                         │
+                         │ Internet
+                         ↓
+              ┌─────────────────────┐
+              │   Flutter Mobile    │
+              │        App          │
+              │                     │
+              │ Dashboard           │
+              │ Device Management   │
+              │ Security Alerts     │
+              │ Settings            │
+              └─────────────────────┘
